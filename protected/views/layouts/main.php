@@ -20,8 +20,18 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 		
-		<!--add the html here-->
-        <p>This is a basic app</p>
+        <div class="container" id="page">
+
+		<div id="header">
+				
+		</div><!-- header -->
+			
+		<?php echo $content; ?>
+		<div class="clear"></div>
+		<div id="footer">
+				
+		</div>
+	</div><!-- page -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
